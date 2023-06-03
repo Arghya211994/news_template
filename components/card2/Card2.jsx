@@ -6,11 +6,11 @@ const Card2 = () => {
     <>
     <div className={styles.card_body}>
         <div>
-            <img src="https://images.taboola.com/taboola/image/fetch/f_jpg%2Cq_auto%2Ch_656%2Cw_1180%2Cc_fill%2Cg_faces:auto%2Ce_sharpen/http%3A//cdn.taboola.com/libtrc/static/thumbnails/5271a5f849fa569c497ec7a93f7cae53.jpg" alt="" />
+            <img src="https://images.taboola.com/taboola/image/fetch/f_jpg%2Cq_auto%2Ch_656%2Cw_1180%2Cc_fill%2Cg_faces:auto%2Ce_sharpen/http%3A//cdn.taboola.com/libtrc/static/thumbnails/ec86022983ea17fbd9aea9d27ea6f161.jpg" alt="" />
         </div>
 
         <div>
-            <p>Every Indian Should Get This Incredible Rs.1999 Smartwatch</p>
+            <p>Senior Living Homes in Burdwan May Surprise You</p>
             <p>This new smartwatch is taking over India. See why it's gaining popularity quickly and selling out everywhere</p>
             <p><span style={{fontWeight:"bold"}}>GenFit</span> | Sponsored</p>
         </div>

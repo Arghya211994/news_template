@@ -6,6 +6,7 @@ import { BsTwitter } from 'react-icons/bs'
 import { FaYoutube } from 'react-icons/fa'
 import { HiPhoneArrowUpRight } from 'react-icons/hi2'
 import { BiChevronDown } from 'react-icons/bi'
+import Link from 'next/link'
 
 const Header = () => {
 
@@ -18,7 +19,7 @@ const Header = () => {
             <main className={styles.container}>
                 <nav className={styles.nav}>
                     <div className={styles.nav_left}>
-                        <div>
+                        {/* <div>
                             <img src="https://static.abplive.com/frontend/images/ABP_logo_main.svg" alt="abp" />
                         </div>
 
@@ -34,6 +35,10 @@ const Header = () => {
                                     className={styles.header_logo2_img}
                                     alt="" />
                             </span>
+                        </div> */}
+
+                        <div>
+                            <img src="https://taazatv.com/image/logo.png" alt="logo" />
                         </div>
                     </div>
 
@@ -82,7 +87,7 @@ const Header = () => {
                         </div>
 
                         <div>
-                            <FaYoutube />
+                            <Link href="https://stream.playbox.co.in:2020/VideoPlayer/taaza" style={{color:"red",fontSize:20}} target='_blank'><FaYoutube /></Link>        
                         </div>
 
                         <div>
@@ -110,7 +115,7 @@ const Header = () => {
 
                         <p>खेल</p>
 
-                        <div>
+                        <div onMouseLeave={() => setDropdown1(false)}>
                             <div onMouseEnter={() => setDropdown1(true)}>
                                 <p>ऐस्ट्रो</p>
                                 <div>
@@ -128,7 +133,7 @@ const Header = () => {
 
                         <p>बिजनेस</p>
 
-                        <div>
+                        <div onMouseLeave={() => setDropdown2(false)}>
                             <div onMouseEnter={() => setDropdown2(true)}>
                                 <p>राज्य</p>
                                 <div>
@@ -146,7 +151,7 @@ const Header = () => {
 
                         <p>लाइफस्टाइल</p>
 
-                        <div>
+                        <div onMouseLeave={() => setDropdown3(false)}>
                             <div onMouseEnter={() => setDropdown3(true)}>
                                 <p>अन्य</p>
                                 <div>
